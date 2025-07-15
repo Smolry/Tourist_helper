@@ -13,8 +13,7 @@ ExploreAI is a smart, personalized tour planning app powered by the Foursquare P
 
 ## 🚀 Demo
 
-Frontend: _coming soon_  
-Backend: _coming soon_
+[https://tourist-helper.vercel.app/]
 
 ---
 
