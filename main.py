@@ -9,7 +9,7 @@ app = FastAPI(title="ExploreAI")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # Or ["*"] for all origins (use with caution)
+    allow_origins=["http://localhost:5173"], ["https://tourist-helper.onrender.com"]  # Or ["*"] for all origins (use with caution)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
