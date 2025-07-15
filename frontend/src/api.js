@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000"; // Change if your backend URL is different
+const BASE_URL = "https://tourist-helper.onrender.com"; // Change if your backend URL is different
 
 export async function planTour({ lat, lon, interest, limit }) {
   const res = await fetch(`${BASE_URL}/plan-tour`, {
